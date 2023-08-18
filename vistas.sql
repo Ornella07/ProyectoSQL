@@ -8,7 +8,8 @@ WHERE nombre = "Homeland" ;
 CREATE VIEW vista_outlander AS
 SELECT * FROM serie
 WHERE nombre = "outlander";
- 
+
+  select * from vista_outlander;
  
 CREATE view vista_edad_actor AS
 select nombre, apellido, edad FROM actores
